@@ -1,6 +1,7 @@
 // src/app/page.tsx (or src/pages/index.tsx if using pages router)
 import Image from "next/image";
 import FaqsSectionHome from "@/components/sections/Home/FaqsSectionHome";
+import FinalCTASection from "@/components/sections/Home/FinalCTASection";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
 
       {/* FAQ Section */}
       <FaqsSectionHome />
+      <FinalCTASection />
     </main>
   )
 }
