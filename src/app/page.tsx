@@ -4,6 +4,7 @@ import FaqsSectionHome from "@/components/sections/Home/FaqsSectionHome";
 import FinalCTASection from "@/components/sections/Home/FinalCTASection";
 import TestimonialsSection from "@/components/sections/Home/TestimonialsSection";
 import HeroSection from "@/components/sections/Home/HeroSection";
+import InfoSection from "@/components/sections/Home/InfoSection";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
         <h1 className="text-4xl font-bold">Welcome to LocusHQ</h1>
       </section>
 
+      <InfoSection/>
       {/* FAQ Section */}
       <TestimonialsSection />
       <FaqsSectionHome />
