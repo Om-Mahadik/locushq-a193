@@ -2,6 +2,7 @@
 import Image from "next/image";
 import FaqsSectionHome from "@/components/sections/Home/FaqsSectionHome";
 import FinalCTASection from "@/components/sections/Home/FinalCTASection";
+import TestimonialsSection from "@/components/sections/Home/TestimonialsSection";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       </section>
 
       {/* FAQ Section */}
+      <TestimonialsSection />
       <FaqsSectionHome />
       <FinalCTASection />
     </main>
